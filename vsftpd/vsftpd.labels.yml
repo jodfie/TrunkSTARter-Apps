@@ -1,0 +1,13 @@
+services:
+  vsftpd:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Probably the most secure and fastest FTP server for UNIX-like systems
+      com.trunkstarter.appinfo.nicename: vsftpd
+      com.trunkstarter.appvars.vsftpd_datadir: /mnt/vsftpd
+      com.trunkstarter.appvars.vsftpd_enabled: "false"
+      com.trunkstarter.appvars.vsftpd_ftp_pass: ""
+      com.trunkstarter.appvars.vsftpd_ftp_user: ""
+      com.trunkstarter.appvars.vsftpd_network_mode: ""
+      com.trunkstarter.appvars.vsftpd_port_21: "21"
+      com.trunkstarter.appvars.vsftpd_restart: unless-stopped

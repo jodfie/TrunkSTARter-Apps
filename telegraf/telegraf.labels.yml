@@ -1,0 +1,12 @@
+services:
+  telegraf:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Agent for collecting metrics and writing them to InfluxDB
+      com.trunkstarter.appinfo.nicename: Telegraf
+      com.trunkstarter.appvars.telegraf_enabled: "false"
+      com.trunkstarter.appvars.telegraf_network_mode: ""
+      com.trunkstarter.appvars.telegraf_port_8092: "8092"
+      com.trunkstarter.appvars.telegraf_port_8094: "8094"
+      com.trunkstarter.appvars.telegraf_port_8125: "8125"
+      com.trunkstarter.appvars.telegraf_restart: unless-stopped

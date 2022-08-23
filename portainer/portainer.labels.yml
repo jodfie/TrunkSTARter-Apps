@@ -1,0 +1,10 @@
+services:
+  portainer:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Simple management UI for docker
+      com.trunkstarter.appinfo.nicename: Portainer
+      com.trunkstarter.appvars.portainer_enabled: "false"
+      com.trunkstarter.appvars.portainer_network_mode: ""
+      com.trunkstarter.appvars.portainer_port_9000: "9000"
+      com.trunkstarter.appvars.portainer_restart: unless-stopped

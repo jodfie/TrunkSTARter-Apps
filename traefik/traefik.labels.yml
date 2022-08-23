@@ -1,0 +1,12 @@
+services:
+  traefik:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: A modern HTTP reverse proxy and load balancer that makes deploying microservices easy
+      com.trunkstarter.appinfo.nicename: Traefik
+      com.trunkstarter.appvars.traefik_enabled: "false"
+      com.trunkstarter.appvars.traefik_network_mode: ""
+      com.trunkstarter.appvars.traefik_port_443: "443"
+      com.trunkstarter.appvars.traefik_port_80: "80"
+      com.trunkstarter.appvars.traefik_port_8080: "8080"
+      com.trunkstarter.appvars.traefik_restart: unless-stopped

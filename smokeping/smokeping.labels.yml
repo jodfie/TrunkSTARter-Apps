@@ -1,0 +1,11 @@
+services:
+  smokeping:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Free service which will point a DNS to an IP of your choice
+      com.trunkstarter.appinfo.nicename: SmokePing
+      com.trunkstarter.appvars.smokeping_datadir: /mnt/smokeping
+      com.trunkstarter.appvars.smokeping_enabled: "false"
+      com.trunkstarter.appvars.smokeping_network_mode: ""
+      com.trunkstarter.appvars.smokeping_port_80: "8011"
+      com.trunkstarter.appvars.smokeping_restart: unless-stopped

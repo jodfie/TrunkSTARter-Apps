@@ -1,0 +1,9 @@
+services:
+  ddclient:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Update dynamic DNS entries
+      com.trunkstarter.appinfo.nicename: DDClient
+      com.trunkstarter.appvars.ddclient_enabled: "false"
+      com.trunkstarter.appvars.ddclient_network_mode: ""
+      com.trunkstarter.appvars.ddclient_restart: unless-stopped

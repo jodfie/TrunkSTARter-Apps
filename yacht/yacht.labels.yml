@@ -1,0 +1,13 @@
+services:
+  yacht:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Yacht is a container management UI with a focus on templates and 1-click deployments.
+      com.trunkstarter.appinfo.nicename: Yacht
+      com.trunkstarter.appvars.yacht_admin_email: admin@yacht.local
+      com.trunkstarter.appvars.yacht_disable_auth: "false"
+      com.trunkstarter.appvars.yacht_enabled: "false"
+      com.trunkstarter.appvars.yacht_network_mode: ""
+      com.trunkstarter.appvars.yacht_port_8000: "8000"
+      com.trunkstarter.appvars.yacht_restart: unless-stopped
+      com.trunkstarter.appvars.yacht_secret_key: trunk

@@ -1,0 +1,18 @@
+services:
+  ouroboros:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Automatically update running docker containers
+      com.trunkstarter.appinfo.nicename: Ouroboros
+      com.trunkstarter.appvars.ouroboros_cleanup: "true"
+      com.trunkstarter.appvars.ouroboros_cron: "0 4 * * *"
+      com.trunkstarter.appvars.ouroboros_enabled: "false"
+      com.trunkstarter.appvars.ouroboros_ignore: ""
+      com.trunkstarter.appvars.ouroboros_log_level: info
+      com.trunkstarter.appvars.ouroboros_monitor: ""
+      com.trunkstarter.appvars.ouroboros_network_mode: ""
+      com.trunkstarter.appvars.ouroboros_notifiers: ""
+      com.trunkstarter.appvars.ouroboros_repo_pass: ""
+      com.trunkstarter.appvars.ouroboros_repo_user: ""
+      com.trunkstarter.appvars.ouroboros_restart: unless-stopped
+      com.trunkstarter.appvars.ouroboros_self_update: "true"

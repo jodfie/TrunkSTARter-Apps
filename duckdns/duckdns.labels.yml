@@ -1,0 +1,12 @@
+services:
+  duckdns:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Free service which will point a DNS to an IP of your choice
+      com.trunkstarter.appinfo.nicename: DuckDNS
+      com.trunkstarter.appvars.duckdns_enabled: "false"
+      com.trunkstarter.appvars.duckdns_log_file: "true"
+      com.trunkstarter.appvars.duckdns_network_mode: ""
+      com.trunkstarter.appvars.duckdns_restart: unless-stopped
+      com.trunkstarter.appvars.duckdns_subdomains: ""
+      com.trunkstarter.appvars.duckdns_token: ""

@@ -1,0 +1,11 @@
+services:
+  goaccess:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Real-time web log analyzer
+      com.trunkstarter.appinfo.nicename: GoAccess
+      com.trunkstarter.appvars.goaccess_enabled: "false"
+      com.trunkstarter.appvars.goaccess_logsdir: ~/.config/trunkdata/swag/log/nginx
+      com.trunkstarter.appvars.goaccess_network_mode: ""
+      com.trunkstarter.appvars.goaccess_port_7889: "7889"
+      com.trunkstarter.appvars.goaccess_restart: unless-stopped

@@ -1,0 +1,10 @@
+services:
+  monitorr:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Webfront to live display the status of any webapp or service
+      com.trunkstarter.appinfo.nicename: Monitorr
+      com.trunkstarter.appvars.monitorr_enabled: "false"
+      com.trunkstarter.appvars.monitorr_network_mode: ""
+      com.trunkstarter.appvars.monitorr_port_80: "8004"
+      com.trunkstarter.appvars.monitorr_restart: unless-stopped

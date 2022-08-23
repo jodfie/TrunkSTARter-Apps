@@ -1,0 +1,15 @@
+services:
+  huginn:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Huginn is a system for building agents that perform automated tasks for you online.
+      com.trunkstarter.appinfo.nicename: Huginn
+      com.trunkstarter.appvars.huginn_database_host: mariadb
+      com.trunkstarter.appvars.huginn_database_name: huginn
+      com.trunkstarter.appvars.huginn_database_password: ""
+      com.trunkstarter.appvars.huginn_database_port: "3306"
+      com.trunkstarter.appvars.huginn_database_username: huginn
+      com.trunkstarter.appvars.huginn_enabled: "false"
+      com.trunkstarter.appvars.huginn_network_mode: ""
+      com.trunkstarter.appvars.huginn_port_3000: "3000"
+      com.trunkstarter.appvars.huginn_restart: unless-stopped

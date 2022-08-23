@@ -1,0 +1,10 @@
+services:
+  influxdb:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Time series database for recording metrics, events, and analytics
+      com.trunkstarter.appinfo.nicename: InfluxDB
+      com.trunkstarter.appvars.influxdb_enabled: "false"
+      com.trunkstarter.appvars.influxdb_network_mode: ""
+      com.trunkstarter.appvars.influxdb_port_8086: "8086"
+      com.trunkstarter.appvars.influxdb_restart: unless-stopped

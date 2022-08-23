@@ -1,0 +1,14 @@
+services:
+  dozzle:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Dozzle is a simple, lightweight application that provides you with a web based interface to monitor your Docker container logs live.
+      com.trunkstarter.appinfo.nicename: Dozzle
+      com.trunkstarter.appvars.dozzle_base: /
+      com.trunkstarter.appvars.dozzle_enabled: "false"
+      com.trunkstarter.appvars.dozzle_filter: ""
+      com.trunkstarter.appvars.dozzle_level: info
+      com.trunkstarter.appvars.dozzle_network_mode: ""
+      com.trunkstarter.appvars.dozzle_port_8080: "8080"
+      com.trunkstarter.appvars.dozzle_restart: unless-stopped
+      com.trunkstarter.appvars.dozzle_tailsize: "300"

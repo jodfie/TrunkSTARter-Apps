@@ -1,0 +1,10 @@
+services:
+  logarr:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Self-hosted, single-page, log consolidation tool
+      com.trunkstarter.appinfo.nicename: Logarr
+      com.trunkstarter.appvars.logarr_enabled: "false"
+      com.trunkstarter.appvars.logarr_network_mode: ""
+      com.trunkstarter.appvars.logarr_port_80: "8003"
+      com.trunkstarter.appvars.logarr_restart: unless-stopped

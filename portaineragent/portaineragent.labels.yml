@@ -1,0 +1,10 @@
+services:
+  portaineragent:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: An agent used to manage all the resources in a Swarm cluster
+      com.trunkstarter.appinfo.nicename: PortainerAgent
+      com.trunkstarter.appvars.portaineragent_enabled: "false"
+      com.trunkstarter.appvars.portaineragent_network_mode: ""
+      com.trunkstarter.appvars.portaineragent_port_9001: "9001"
+      com.trunkstarter.appvars.portaineragent_restart: unless-stopped

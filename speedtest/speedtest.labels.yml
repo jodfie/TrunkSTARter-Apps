@@ -1,0 +1,12 @@
+services:
+  speedtest:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: This program runs a speedtest check every hour and graphs the results.
+      com.trunkstarter.appinfo.nicename: speedtest
+      com.trunkstarter.appvars.speedtest_base_path: /
+      com.trunkstarter.appvars.speedtest_enabled: "false"
+      com.trunkstarter.appvars.speedtest_network_mode: ""
+      com.trunkstarter.appvars.speedtest_ookla_eula_gdpr: "true"
+      com.trunkstarter.appvars.speedtest_port_80: "80"
+      com.trunkstarter.appvars.speedtest_restart: unless-stopped

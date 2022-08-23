@@ -1,0 +1,13 @@
+services:
+  openvpnas:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Secure network tunneling VPN
+      com.trunkstarter.appinfo.nicename: OpenVPNAS
+      com.trunkstarter.appvars.openvpnas_enabled: "false"
+      com.trunkstarter.appvars.openvpnas_interface: eth0
+      com.trunkstarter.appvars.openvpnas_network_mode: ""
+      com.trunkstarter.appvars.openvpnas_port_1194: "1194"
+      com.trunkstarter.appvars.openvpnas_port_943: "943"
+      com.trunkstarter.appvars.openvpnas_port_9443: "9443"
+      com.trunkstarter.appvars.openvpnas_restart: unless-stopped

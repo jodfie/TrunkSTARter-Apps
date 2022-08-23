@@ -1,0 +1,11 @@
+services:
+  guacamole:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Web application to remote desktop
+      com.trunkstarter.appinfo.nicename: Guacamole
+      com.trunkstarter.appvars.guacamole_enabled: "false"
+      com.trunkstarter.appvars.guacamole_extensions: ""
+      com.trunkstarter.appvars.guacamole_network_mode: ""
+      com.trunkstarter.appvars.guacamole_port_8080: "8080"
+      com.trunkstarter.appvars.guacamole_restart: unless-stopped

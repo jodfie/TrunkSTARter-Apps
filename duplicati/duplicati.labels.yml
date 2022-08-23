@@ -1,0 +1,12 @@
+services:
+  duplicati:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Backup software to store backups online with strong encryption
+      com.trunkstarter.appinfo.nicename: Duplicati
+      com.trunkstarter.appvars.duplicati_backupsdir: ~/.config/trunkdata/backups
+      com.trunkstarter.appvars.duplicati_enabled: "false"
+      com.trunkstarter.appvars.duplicati_network_mode: ""
+      com.trunkstarter.appvars.duplicati_port_8200: "8200"
+      com.trunkstarter.appvars.duplicati_restart: unless-stopped
+      com.trunkstarter.appvars.duplicati_sourcedir: ~/.config/trunkdata

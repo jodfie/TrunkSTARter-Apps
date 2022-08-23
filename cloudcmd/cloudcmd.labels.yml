@@ -1,0 +1,11 @@
+services:
+  cloudcmd:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: A web file manager with console and editor
+      com.trunkstarter.appinfo.nicename: CloudCMD
+      com.trunkstarter.appvars.cloudcmd_enabled: "false"
+      com.trunkstarter.appvars.cloudcmd_fsdir: /mnt/cloudcmd
+      com.trunkstarter.appvars.cloudcmd_network_mode: ""
+      com.trunkstarter.appvars.cloudcmd_port_8000: "8000"
+      com.trunkstarter.appvars.cloudcmd_restart: unless-stopped

@@ -1,0 +1,16 @@
+services:
+  librespeed:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Lightweight Speedtest implementation
+      com.trunkstarter.appinfo.nicename: LibreSpeed
+      com.trunkstarter.appvars.librespeed_db_hostname: ""
+      com.trunkstarter.appvars.librespeed_db_name: ""
+      com.trunkstarter.appvars.librespeed_db_password: ""
+      com.trunkstarter.appvars.librespeed_db_type: sqlite
+      com.trunkstarter.appvars.librespeed_db_username: ""
+      com.trunkstarter.appvars.librespeed_enabled: "false"
+      com.trunkstarter.appvars.librespeed_network_mode: ""
+      com.trunkstarter.appvars.librespeed_password: ""
+      com.trunkstarter.appvars.librespeed_port_80: "8013"
+      com.trunkstarter.appvars.librespeed_restart: unless-stopped

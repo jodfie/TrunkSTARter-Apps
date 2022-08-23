@@ -1,0 +1,3 @@
+services:
+  duckdns:
+    image: lscr.io/linuxserver/duckdns

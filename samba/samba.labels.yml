@@ -1,0 +1,18 @@
+services:
+  samba:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: File and print services
+      com.trunkstarter.appinfo.nicename: Samba
+      com.trunkstarter.appvars.samba_enabled: "false"
+      com.trunkstarter.appvars.samba_network_mode: ""
+      com.trunkstarter.appvars.samba_nmbd: "true"
+      com.trunkstarter.appvars.samba_password: ts
+      com.trunkstarter.appvars.samba_port_137: "137"
+      com.trunkstarter.appvars.samba_port_138: "138"
+      com.trunkstarter.appvars.samba_port_139: "139"
+      com.trunkstarter.appvars.samba_port_445: "445"
+      com.trunkstarter.appvars.samba_restart: unless-stopped
+      com.trunkstarter.appvars.samba_sharename: TrunkSTARTer
+      com.trunkstarter.appvars.samba_username: ts
+      com.trunkstarter.appvars.samba_workgroup: WORKGROUP

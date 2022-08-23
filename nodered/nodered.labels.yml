@@ -1,0 +1,10 @@
+services:
+  nodered:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: Low-code programming for event-driven applications
+      com.trunkstarter.appinfo.nicename: Nodered
+      com.trunkstarter.appvars.nodered_enabled: "false"
+      com.trunkstarter.appvars.nodered_network_mode: ""
+      com.trunkstarter.appvars.nodered_port_1880: "1880"
+      com.trunkstarter.appvars.nodered_restart: unless-stopped

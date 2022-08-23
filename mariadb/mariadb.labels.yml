@@ -1,0 +1,11 @@
+services:
+  mariadb:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: One of the most popular database servers
+      com.trunkstarter.appinfo.nicename: MariaDB
+      com.trunkstarter.appvars.mariadb_enabled: "false"
+      com.trunkstarter.appvars.mariadb_mysql_root_password: ""
+      com.trunkstarter.appvars.mariadb_network_mode: ""
+      com.trunkstarter.appvars.mariadb_port_3306: "3306"
+      com.trunkstarter.appvars.mariadb_restart: unless-stopped
