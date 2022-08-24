@@ -1,0 +1,3 @@
+services:
+  trunk-recorder:
+    network_mode: ${TRUNK-RECORDER_NETWORK_MODE}

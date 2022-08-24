@@ -1,0 +1,3 @@
+services:
+  trunk-recorder:
+    image: robotastic/trunk-recorder
