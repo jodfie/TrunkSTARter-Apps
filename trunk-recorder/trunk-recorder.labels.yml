@@ -1,0 +1,9 @@
+services:
+  trunk-recorder:
+    labels:
+      com.trunkstarter.appinfo.deprecated: "false"
+      com.trunkstarter.appinfo.description: 
+				Trunk Recorder is able to record the calls on trunked and conventional radio systems. It uses 1 or more Software Defined Radios (SDRs) to do this.
+      com.trunkstarter.appinfo.nicename: Trunk-Recorder	com.trunkstarter.appvars.trunk-recorder_network_mode: ""
+      com.trunkstarter.appvars.trunk-recorder_restart: unless-stopped
+			com.trunkstarter.appvars.trunk-recorder_

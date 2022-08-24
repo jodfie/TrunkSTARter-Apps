@@ -1,0 +1,21 @@
+services:
+  trunk-recorder:
+    container_name: trunk-recorder
+    environment:
+      - PGID=${PGID}
+      - PUID=${PUID}
+      - TZ=${TZ}
+    logging:
+      driver: json-file
+      options:
+        max-file: ${DOCKERLOGGING_MAXFILE}
+        max-size: ${DOCKERLOGGING_MAXSIZE}
+    restart: ${TRUNK-RECORDER_RESTART}
+    volumes:
+    privileged: true
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+      - /var/run/dbus:/var/run/dbus 
+      - /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket
+      - ${DOCKERCONFDIR}/trunk-recorder:/app
+			- ${DOCKERSTORAGEDIR}:/sdraudio
